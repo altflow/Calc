@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Aspect Ratio</title>
+</head>
+<body>
+<!-- Aspect Ratio Calc -->
+<div data-role="page" data-add-back-btn="true" id="aspect_ratio">
+	<div data-role="header">
+		<h1>Aspect Ratio</h1>
+	</div>
+	<div data-role="content">
+		<form id="ratio" action="">
+			<div data-role="fieldcontain" class="ui-hide-label">
+				<label for="ratio_width">W:</label>
+				<input type="number" name="ratio_width" id="ratio_width" placeholder="16" />
+				<span class="separator">:</span>
+				<label for="ratio_width">H:</label>
+				<input type="number" name="ratio_height" id="ratio_height" placeholder="9" />
+				<label for="px_width">W:</label>
+				<input type="number" name="px_width" id="px_width" placeholder="1920" />
+				<span class="separator">x</span>
+				<label for="px_width">H:</label>
+				<input type="number" name="px_height" id="px_height" placeholder="1080" />
+			</div>
+		</form>
+		<p id="ar_output"></p>
+	</div>
+</div>
+<!-- /CAspect Ratio Calc -->
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+/**
+ * custom style of calc
+ */
+
+#aspect_ratio input {
+	display: inline;
+	width: 42%;
+}
+#aspect_ratio .separator {
+	font-family: "courier new", monospace;
+}

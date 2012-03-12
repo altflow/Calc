@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Packets to Bytes</title>
+</head>
+<body>
+<!-- Packets to Bytes Calc -->
+<div data-role="page" data-add-back-btn="true" id="packets_to_bytes">
+	<div data-role="header">
+		<h1>Packets to Bytes</h1>
+	</div>
+	<div data-role="content">
+		<form id="p2b_input" action="">
+			<div data-role="fieldcontain" class="ui-hide-label">
+				<label for="p2b_in">Input Value:</label>
+				<input type="number" name="p2b_in" id="p2b_in" placeholder="128" />
+			</div>
+			<fieldset data-role="controlgroup" data-type="horizontal">
+				<input type="radio" name="unit" id="packets" value="packets" />
+				<label for="packets">P</label>
+				<input type="radio" name="unit" id="mb" value="mb" />
+				<label for="mb">MB</label>
+				<input type="radio" name="unit" id="kb" value="kb" />
+				<label for="kb">KB</label>
+				<input type="radio" name="unit" id="bytes" value="bytes" />
+				<label for="bytes">B</label>
+			</fieldset>
+		</form>
+		<p id="p2b_out"></p>
+	</div>
+</div>
+<!-- /Packets to Bytes Calc -->
+
+</body>
+</html>
